@@ -13,7 +13,7 @@ step =: render @ update       NB. each step, we'll call those two in sequence
 
 RGB=: (#:i.8) { 0 255
 
-DSEIR =: (0 7 6 4 2 { RGB)
+DSEIR =: (07 6 4 2 { RGB)
 
 update =: 3 : 0
   im =: 12 12 $ infect^:144 starting_pop
