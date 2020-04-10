@@ -27,7 +27,7 @@ wd 'timer 0'
 to 
 
 ```
-  wd 'timer 800'
+wd 'timer 800'
 ```
 
 and the blank gui window should start showing a matrix of color changes with WHITE=susceptible, YELLOW=exposed, RED=infectious, GREEN=recovered and BLACK=dead approximately every 800 ms.
