@@ -15,11 +15,11 @@ RGB=: (#:i.8) { 0 255
 
 DSEIR =: (0 7 6 4 2 { RGB)
 
-update =: verb define
-  im =: 12 12 $ infect^:144 starting_pop
+update =: 3 : 0
+  im =: 12 12 $ infect_display^:144 starting_pop
 )
 
-render =: verb define
+render =: 3 : 0
   DSEIR vmcc im;'g0'
   glpaint''
 )
