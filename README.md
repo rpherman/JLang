@@ -31,6 +31,8 @@ and the blank gui window should start showing a matrix of color changes with WHI
 
 I am still working out the kinks in the call:
 
-  infect_display^:144 starting_pop
-  
+```
+infect_display^:144 starting_pop
+```
+
 ...because the timer value restarts this 144 day simulation, and so it is graphing where ever it is at in the 144 day simulation in the gui loop.
