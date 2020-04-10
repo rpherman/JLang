@@ -3,7 +3,7 @@ My J learning exercises and all things J-related.
 
 ## sars-cov-2-DSEIR.ijs
 
-This J code is based upon Tyler Limkemann's Blog posting on Modeling the COVID-19 Outbreak with J:
+This J code is mostly based upon Tyler Limkemann's Blog posting on Modeling the COVID-19 Outbreak with J:
 
 https://datakinds.github.io/2020/03/15/modeling-the-coronavirus-outbreak-with-j
 
