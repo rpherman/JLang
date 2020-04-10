@@ -17,11 +17,15 @@ It is a mashup of the two references and my own glue in order to better understa
 
 After you have loaded the file into J and hit run, edit the line:
 
-  wd 'timer 0'
+```
+wd 'timer 0'
+```
 
 to 
 
+```
   wd 'timer 800'
+```
 
 and the blank gui window should start showing a matrix of color changes with WHITE=susceptible, YELLOW=exposed, RED=infectious, GREEN=recovered and BLACK=dead.
 
