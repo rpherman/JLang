@@ -60,7 +60,7 @@ This will make things run slower, but you can compare the J Term  window's numer
 
 ![J_Term_Output](SimRun-with-Term-output.png)
 
-There are 144 people in the 12x12 gui matrix that should run over 144 days, but it keeps going.
+There are 144 people in the 12x12 gui matrix that should run over 144 days, but it keeps going well past the 144 days, since it is basically in an animation loop.
 I would like to make it so the matrix is in person order, so I can track an individual going through the state changes akin to a GOL (Game Of Life) simulation.
 
 ### Colors for DSEIR from RGB
