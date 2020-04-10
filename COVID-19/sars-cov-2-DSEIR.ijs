@@ -16,7 +16,7 @@ RGB=: (#:i.8) { 0 255
 DSEIR =: (0 7 6 4 2 { RGB)
 
 update =: 3 : 0
-  im =: 12 12 $ infect_display^:144 starting_pop
+  im =: 12 12 $ infect^:144 starting_pop
 )
 
 render =: 3 : 0
