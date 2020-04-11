@@ -28,7 +28,7 @@ sys_timer_z_ =: step_base_
 wd 'timer 0'
 ppl =: 144 NB. How many people are in our simulation?
 
-Beta  =: 0.106271    NB. The rate at which susceptible people become exposed. RPH - dependent on R0 = 2.2 3/25/2020
+Beta  =: 0.319918    NB. The rate at which susceptible people become exposed. RPH - dependent on R0 = 2.2 3/25/2020
 Sigma =: 0.066967    NB. The rate at which exposed people become infectious. RPH - (1-sigma)^10=0.5, 10 is incubation period.
 Gamma =: 0.056126    NB. The rate at which infectious people recover. RPH - adjusted to 12 days, so (1-Gamma)^12=0.5.
 Xi    =: 0.02284     NB. The rate at which recovered people lose immunity and become susceptible. RPH - 30 days
