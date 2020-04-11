@@ -28,12 +28,12 @@ sys_timer_z_ =: step_base_
 wd 'timer 0'
 ppl =: 144 NB. How many people are in our simulation?
 
-Beta  =: 0.319918    NB. The rate at which susceptible people become exposed. RPH - dependent on R0 = 2.2 3/25/2020
+Beta  =: 0.319918    NB. The rate at which susceptible people become exposed. RPH - dependent on R0 = 5.7 April 7, 2020
 Sigma =: 0.066967    NB. The rate at which exposed people become infectious. RPH - (1-sigma)^10=0.5, 10 is incubation period.
 Gamma =: 0.056126    NB. The rate at which infectious people recover. RPH - adjusted to 12 days, so (1-Gamma)^12=0.5.
 Xi    =: 0.02284     NB. The rate at which recovered people lose immunity and become susceptible. RPH - 30 days
-		     																NB. is partially based upon man on Diamond Princess who presented symptoms around 30 days otherwise made up.
-R     =: 5.7         NB. How many people will 1 person infect? RPH - based on latest CDC estimate: https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article 
+		     						 NB. is partially based upon man on Diamond Princess who presented symptoms around 30 days otherwise made up.
+R     =: 5.7         NB. How many people will 1 person infect? RPH - based on latest CDC estimate: https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article Original Publication Date: 4/7/2020
 CFR   =: 0.015       NB. Case Fatality Rate - RPH based upon 50-59 year olds and this ref.: https://www.cebm.net/covid-19/global-covid-19-case-fatality-rates/
 D     =: 0.0011619   NB. Death rate per day while symptomatic - RPH 1-CFR = (1 - D)^13 - based upon 13 days to death as seen and per CDC.
 
