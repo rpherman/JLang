@@ -52,8 +52,7 @@ NB. 1 = Susceptible
 NB. 2 = Exposed
 NB. 3 = Infectious
 NB. 4 = Recovered
-starting_pop =: 2 , (ppl - 1) $ 1
-
+starting_pop =: 2 2 , (ppl - 2) $ 1
 infect =: 3 : 0
  can_spread =. (1&< *. 4&>) y
  susceptible =. y = 1
